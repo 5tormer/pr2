@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="pr2" fetch="https://github.com/5tormer"/>
+	<remote  name="ph" fetch="https://github.com/phhusson"/>
+ 	<remove-project name="platform/frameworks/av" />
+	<project path="frameworks/av" name="platform/frameworks/av" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/frameworks/native" />
+	<project path="frameworks/native" name="platform/frameworks/native" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/external/selinux" />
+	<project path="external/selinux" name="platform/external/selinux" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/system/core" />
+	<project path="system/core" name="platform/system/core" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/system/netd" />
+	<project path="system/netd" name="platform/system/netd" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/frameworks/base" />
+	<project path="frameworks/base" name="platform/frameworks/base" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/frameworks/base" />
+	<project path="frameworks/base" name="platform/frameworks/base" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/bootable/recovery" />
+	<project path="bootable/recovery" name="platform/bootable/recovery" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/system/bt" />
+	<project path="system/bt" name="platform/system/bt" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/system/vold" />
+	<project path="system/vold" name="platform/system/vold" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/frameworks/opt/telephony" />
+	<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote="ph" revision="android-10.0.0_r41-phh" />
+	<remove-project name="platform/system/bpf" />
+	<project path="system/bpf" name="platform/system/bpf" remote="ph" revision="android-10.0.0_r41-phh" />
+	<project path="hardware/overlay" name="vendor/hardware/overlay" remote="ph" revision="pie" />
+	<project path="foss" name="vendor/foss" remote="ph" revision="master" />
+	<project path="device/mirea/it1" name="pr2" remote="pr2" revision="main" />
+</manifest>
